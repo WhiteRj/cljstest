@@ -22,7 +22,7 @@ This project uses
 1. `re-natal use-figwheel`
 1. `lein figwheel android`
 1. `npm start` (in separate tty)
-1. `cd android && ./gradlew installBetaDebug` (in separate tty)
+1. `cd android && ./gradlew installDebug` (in separate tty)
 1. start app manually
 
 ##### On real device:
@@ -32,5 +32,5 @@ This project uses
 1. `re-natal use-figwheel`
 1. `lein figwheel android`
 1. `npm start` (in separate tty)
-1. `cd android && ./gradlew installBetaDebug` (in separate tty)
+1. `cd android && ./gradlew installDebug` (in separate tty)
 1. start app manually
