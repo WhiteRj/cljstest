@@ -1,8 +1,9 @@
 (ns cljstest.core
   (:require [reagent.core :as r]
-            [re-frame.core :refer [subscribe dispatch-sync]]
+            [re-frame.core :refer [dispatch-sync]]
             [react.core :as react]
             [cljstest.events]
+            [cljstest.events-fx]
             [cljstest.subs]
             [cljstest.scenes.root :as root]))
 
